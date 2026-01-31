@@ -1,6 +1,6 @@
 # tmux-scrollback
 
-Open your tmux pane's scrollback history in Neovim for easy navigation and searching.
+Open your tmux pane's scrollback history in Neovim
 
 ## Requirements
 
