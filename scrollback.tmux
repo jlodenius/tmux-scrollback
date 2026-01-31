@@ -5,7 +5,7 @@ DEFAULT_KEY="v"
 
 main() {
     local key
-    key=$(tmux show-option -gqv @copy-key)
+    key=$(tmux show-option -gqv @scrollback-key)
     key=${key:-$DEFAULT_KEY}
 
     tmux bind-key "$key" run-shell "$CURRENT_DIR/scripts/open-scrollback.sh"
